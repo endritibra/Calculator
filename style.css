@@ -1,0 +1,218 @@
+.display{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    margin-bottom: 40px;
+    border-radius: 5px 5px 0px 0px;
+    
+    font-size: 30px;
+    
+}
+
+
+.container{
+    margin: 60px auto;
+    background-color: rgb(210, 210, 210);
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+    max-width: 100%;
+
+}
+
+button{
+    height: 70px;
+    width: 70px;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.bcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
+.equals{
+    height: 70px;
+    width: 130px;
+    margin-left:10px;
+    background-color: rgba(33, 254, 29, 0.826);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.previousNumber{
+
+   color:rgb(125, 125, 125);
+    font-size: 30px;
+    margin-right: 30px;
+    display: flex;
+justify-content: flex-end;
+
+
+}
+
+.currentNumber{
+display: flex;
+justify-content: flex-end;
+    margin-top:20px;
+    font-size: 40px;
+
+}
+
+.num{
+
+  appearance: button;
+  background-color: #017fb5;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.num:after {
+  background-clip: padding-box;
+  background-color: #04459b;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.operator{
+    display: flex;
+justify-content: flex-end;
+    margin-top:20px;
+
+
+
+  appearance: button;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.clear{
+    
+  appearance: button;
+  background-color: rgb(250, 129, 0);
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 60%;
+}
+
+.fourthrow{
+    margin-top: -2px;
+}
+
+.backspace{
+    
+
+  appearance: button;
+  background-color: white;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
